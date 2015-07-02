@@ -11,26 +11,26 @@ To use Essentia in Xcode, you should get Essentia installed on your machine firs
 After you successfully install Essentia, you should configure your xcode build setting as usual: set header search path and library search path
 
 And then drag these libraries to your Xcode project: 
-*libavresample.a 
-*libessentia.a 
-*libtag.dylib
-*libsamplerate.a
-*libavcodec.a 
-*libavformat.a 
-*libavutil.a 
-*libswresample.a
-*libfftw3f.a
-*libyaml.a
+* libavresample.a 
+* libessentia.a 
+* libtag.dylib
+* libsamplerate.a
+* libavcodec.a 
+* libavformat.a 
+* libavutil.a 
+* libswresample.a
+* libfftw3f.a
+* libyaml.a
 
 Finally, include the following in your file, and start making real-time audio reactive visual using audio-based MIR:
 
-*“essentia.h”
-*“taglib.h”
-*“fftw3.h”
-*“essentia/algorithmfactory.h”
-*“essentia/essentiamath.h”
-*“essentia/pool.h”
+* “essentia.h”
+* “taglib.h”
+* “fftw3.h”
+* “essentia/algorithmfactory.h”
+* “essentia/essentiamath.h”
+* “essentia/pool.h”
 
-*using namespace std;
-*using namespace essentia;
-*using namespace standard;
+* using namespace std;
+* using namespace essentia;
+* using namespace standard;
