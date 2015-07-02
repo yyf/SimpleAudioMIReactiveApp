@@ -30,7 +30,6 @@ Finally, include the following in your file, and start making real-time audio re
 * “essentia/algorithmfactory.h”
 * “essentia/essentiamath.h”
 * “essentia/pool.h”
-
 * using namespace std;
 * using namespace essentia;
 * using namespace standard;
